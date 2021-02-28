@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PexelsAPI</string>
+    <string name="enter_search_category">Enter search category</string>
+    <string name="no_item_found">No Item Found</string>
 </resources>

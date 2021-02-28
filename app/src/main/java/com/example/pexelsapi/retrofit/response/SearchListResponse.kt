@@ -7,6 +7,9 @@ data class SearchListResponse(
 	@field:SerializedName("next_page")
 	val nextPage: String? = null,
 
+	@field:SerializedName("prev_page")
+	val prevPage: String? = null,
+
 	@field:SerializedName("per_page")
 	val perPage: Int? = null,
 

@@ -10,7 +10,8 @@ interface ApiInterface {
 
     @GET("search")
     fun getSearchList(
-        @Query("query") query:String?="nature",
-        @Query("per_page") per_page:String?="1"
+        @Query("query") query:String?="",
+        @Query("per_page") per_page:Int?=9,
+        @Query("page") page:Int?=1
     ): Call<SearchListResponse>
 }

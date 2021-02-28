@@ -26,6 +26,7 @@ object AppClient {
                 val original = chain.request()
                 val requestBuilder = original.newBuilder()
                     .header("Content-Type", "application/json")
+                    .header("Authorization", "563492ad6f91700001000001879eb0587a9145f5b03d5f24162bbf5e")
                 val request = requestBuilder.build()
                 chain.proceed(request)
             }
