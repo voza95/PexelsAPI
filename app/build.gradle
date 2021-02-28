@@ -4,6 +4,15 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('G:\\PexelsAPI\\credential\\pexelsapi.jks')
+            storePassword 'pexelsapi'
+            keyAlias = 'pexelsapi'
+            keyPassword 'pexelsapi'
+        }
+    }
+
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 

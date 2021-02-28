@@ -43,7 +43,7 @@
                 android:layout_height="34dp"
                 android:layout_centerVertical="true"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_next"
+                android:src="@drawable/ic_search"
                 android:layout_alignParentRight="true" />
 
         </RelativeLayout>
@@ -57,7 +57,7 @@
             <ImageView
                 android:id="@+id/selectedImageIV"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
             <ImageView
@@ -67,7 +67,13 @@
                 android:src="@drawable/ic_close"
                 android:layout_gravity="end"/>
 
+
         </FrameLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_height="1dp"/>
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -109,6 +115,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:weightSum="6"
+        android:background="#C4C4C4"
         android:gravity="center"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
